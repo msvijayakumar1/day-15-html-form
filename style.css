@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url("https://www.shutterstock.com/image-photo/black-empty-plate-fork-spoon-260nw-510091801.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: xxx-large;
+    color: white;
+    animation: h1_anim 1s linear infinite;
+}
+@keyframes h1_anim {
+    0% {
+      opacity: 0.80;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+h5,h3 {
+    color: aquamarine;
+}
+h6 {
+    color: antiquewhite;
+}    
+#form {
+    width: 60%;
+}
+#food_select {
+    height: 30%;
+}
